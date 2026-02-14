@@ -236,7 +236,7 @@ Manages which files are generated for the solver and visualization.
 
 
 ### 2. Linking to `elas3dxtal_pcg.f90` (Fortran Solver)
-After generating the microstructure in MATLAB, manually update the Fortran solver parameters to match your new geometry and material.
+After generating the microstructure in MATLAB and exporting the results to 'output_summary.txt', manually update the Fortran solver parameters to match your new geometry and material.
 
 **CRITICAL CONCEPT: The "+1 Rule" for Grid Points**
 * **MATLAB** defines the grid by **voxels** (elements).
