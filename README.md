@@ -329,7 +329,7 @@ If you use this code in your research, please cite **both** the new methodology 
 
 **1. ELAS3D-Xtal (This Work):**
 
-> Jeong, J., & Sundararaghavan, V. (2026). *ELAS3D-Xtal: An OpenMP-accelerated crystal elasticity solver with automated experiment-driven microstructure generation*. arXiv preprint arXiv:2602.07354. https://doi.org/10.48550/arXiv.2602.07354
+> Jeong, J., & Sundararaghavan, V. (2026). *ELAS3D-Xtal: An OpenMP-accelerated crystal elasticity solver with automated experiment-driven microstructure generation*. (Under review). Preprint available at arXiv:2602.07354. https://doi.org/10.48550/arXiv.2602.07354
 
 **2. Original NIST Solver:**
 
@@ -341,10 +341,11 @@ If you use this code in your research, please cite **both** the new methodology 
 @article{jeong2026elas3d,
   title={ELAS3D-Xtal: An OpenMP-accelerated crystal elasticity solver with automated experiment-driven microstructure generation},
   author={Jeong, Juyoung and Sundararaghavan, Veera},
-  journal={arXiv preprint arXiv:2602.07354},
+  journal={Under review},
+  note={Preprint available at arXiv:2602.07354},
   year={2026},
   doi={10.48550/arXiv.2602.07354},
-  url={https://doi.org/10.48550/arXiv.2602.07354}
+  url={[https://doi.org/10.48550/arXiv.2602.07354](https://doi.org/10.48550/arXiv.2602.07354)}
 }
 
 @article{garboczi1998finite,
