@@ -95,6 +95,7 @@ To compile and run ELAS3D-Xtal on Windows, please install the following software
 You must have the following toolboxes installed (check via `ver` command in MATLAB):
 * **Statistics and Machine Learning Toolbox** (required for `lognrnd` and grain statistics).
 * **Image Processing Toolbox** (required for voxel manipulation and segmentation).
+* **Parallel Computing Toolbox** (required for spatial filtering acceleration and fast block processing via `parfor`).
 
 **B. External Libraries (MTEX):**
 The code relies on **MTEX** for crystallographic texture analysis and orientation mapping.
