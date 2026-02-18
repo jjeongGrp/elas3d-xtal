@@ -911,8 +911,8 @@ fprintf(fid, 'Total number of Grains: %s, Pores: %s\n', ...
     regexprep(sprintf('%.0f',nphase-N_grains),'(\d)(?=(\d{3})+$)','$1,'));
 
 % Print physical size of the simulation domain and voxel resolution
-fprintf(fid, 'Domain size: %.1f x %.1f x %.1f um^3\n', ...
-    dx*1e3, dx*1e3, dx*1e3);
+fprintf(fid, 'Domain size: %.1f x %.1f x %.1f mm^3\n', ...
+    cuboid_size(1), cuboid_size(2), cuboid_size(3));
 fprintf(fid, 'Domain grid: %d x %d x %d = %s voxels\n', Nx, Ny, Nz, ...
     regexprep(sprintf('%.0f', Nx*Ny*Nz), '(\d)(?=(\d{3})+$)', '$1,'));
 fprintf(fid, 'Voxel size: %.5f mm (%.2f µm)\n', dx, dx*1e3);
@@ -1559,3 +1559,4 @@ elseif strcmp(micro_plot, 'off')
 end
 
 %% ---- END ----
+
