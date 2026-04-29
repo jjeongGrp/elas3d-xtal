@@ -341,11 +341,13 @@ If you use this code in your research, please cite **both** the new methodology 
 @article{jeong2026elas3d,
   title={ELAS3D-Xtal: An OpenMP-accelerated crystal elasticity solver with automated experiment-driven microstructure generation},
   author={Jeong, Juyoung and Sundararaghavan, Veera},
-  journal={Under review},
-  note={Preprint available at arXiv:2602.07354},
-  year={2026},
-  doi={10.48550/arXiv.2602.07354},
-  url={[https://doi.org/10.48550/arXiv.2602.07354](https://doi.org/10.48550/arXiv.2602.07354)}
+  journal={Computational Materials Science},
+  volume = {269},
+  pages = {114734},
+  year = {2026},
+  issn = {0927-0256},
+  doi = {https://doi.org/10.1016/j.commatsci.2026.114734},
+  url={[https://www.sciencedirect.com/science/article/pii/S0927025626002533](https://www.sciencedirect.com/science/article/pii/S0927025626002533)}
 }
 
 @article{garboczi1998finite,
