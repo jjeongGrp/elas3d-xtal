@@ -1,8 +1,8 @@
-# ELAS3D-Xtal and MicroGen
+# ELAS3D-Xtal and MicroGen-LPBF
 
 **An OpenMP-accelerated crystal elasticity solver with automated experiment-driven microstructure generation.**
 
-ELAS3D-Xtal is a high-performance computational package for simulating the mechanical behavior of additively manufactured synthetic three-dimensional microstructures. It integrates a custom MATLAB-based microstructure generator (MicroGen) with a modernized, parallelized version of the NIST finite element solver (originally NISTIR 6269).
+ELAS3D-Xtal is a high-performance computational package for simulating the mechanical behavior of additively manufactured synthetic three-dimensional microstructures. It integrates a custom MATLAB-based microstructure generator (MicroGen-LPBF) with a modernized, parallelized version of the NIST finite element solver (originally NISTIR 6269).
 
 
 ---
@@ -193,7 +193,7 @@ elas3dxtal_postprocessing
 To run a simulation, ensure that the parameters in the MATLAB generator (`microstructure_gen.m`) match the hardcoded parameters in the Fortran solver (`elas3dxtal_pcg.f90`).
 
 ### 1. `microstructure_gen.m` Configuration
-This script generates the synthetic microstructure. The parameters in the "Configuration & Parameters" section control the output.
+This script, `MicroGen-LPBF`, generates the synthetic microstructure. The parameters in the "Configuration & Parameters" section control the output.
 
 #### A. Domain & Grid Resolution
 These variables define the physical size of the simulation volume and the voxel discretization.
