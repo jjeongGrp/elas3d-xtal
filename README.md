@@ -1,8 +1,8 @@
-# ELAS3D-Xtal
+# ELAS3D-Xtal and MicroGen
 
 **An OpenMP-accelerated crystal elasticity solver with automated experiment-driven microstructure generation.**
 
-ELAS3D-Xtal is a high-performance computational package for simulating the mechanical behavior of additively manufactured synthetic three-dimensional microstructures. It integrates a custom MATLAB-based microstructure generator with a modernized, parallelized version of the NIST finite element solver (originally NISTIR 6269).
+ELAS3D-Xtal is a high-performance computational package for simulating the mechanical behavior of additively manufactured synthetic three-dimensional microstructures. It integrates a custom MATLAB-based microstructure generator (MicroGen) with a modernized, parallelized version of the NIST finite element solver (originally NISTIR 6269).
 
 
 ---
